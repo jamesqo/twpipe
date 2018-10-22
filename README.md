@@ -27,7 +27,7 @@ In the project root directory, run the following commands
 ```
 git submodule init
 git submodule update
-mkdir build
+mkdir build && cd build
 cmake .. -DEIGEN3_INCLUDE_DIR=/path/to/your/eigen3/
 ```
 
